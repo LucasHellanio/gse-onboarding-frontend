@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "modules/lucas-test",
+            "themes/my-liferay-theme"
+        ]
+    }
+}
