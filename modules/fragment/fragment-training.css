@@ -1,0 +1,44 @@
+h1 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.card-training {
+  margin-top: 1.25rem;
+}
+
+.card-training img {
+  width: 15%;
+}
+
+.card_info {
+  padding-left: 2.188rem;
+  flex-wrap: wrap;
+}
+.tag {
+  color: #707070;
+  font-size: 0.9rem;
+}
+
+.button-frag {
+  background: #2e817f;
+  padding: 0.625rem;
+  border-radius: 0.188rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .card-training img {
+    width: 8.75rem;
+    height: 8.75rem;
+  }
+}
